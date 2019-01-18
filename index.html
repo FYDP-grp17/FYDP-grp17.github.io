@@ -22,13 +22,13 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
 
     <style type="text/css">
       .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
         box-shadow: none !important;
-        border-color: #22a7f0 !important;
-        background-color: #22a7f0 !important;
+        border-color: #48a0ef !important;
+        background-color: #48a0ef !important;
       }
 
       #blog h3 {
@@ -38,6 +38,28 @@
         font-style: italic !important;
       }
 
+      .nav-item a {
+        color: #E8EAED; 
+      }
+
+      .grayText {
+        color: #E8EAED !important; 
+      }
+
+      .navbar-shrink .navbar-brand{
+        color: #48a0ef !important;
+      }
+
+      .navbar-shrink .navbar-img {
+        background-image: url("img/Website Images/logo.png") !important;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+      .dark-gray {
+        color: #4c4c4c !important;
+      }
     </style>
 
   </head>
@@ -47,7 +69,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #22a7f0;">Spoteria</a>
+        <span>
+          <img class="navbar-img" style="width: 60px; margin-right: 6px" src="img/Website Images/logo.png"/>
+        </span>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #FFFFFF;">Spoteria</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,10 +82,16 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">team</a>
+              <a class="nav-link js-scroll-trigger" href="#technology">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">News</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -77,33 +108,174 @@
             <h1 class="text-uppercase" style="font-size: 3rem">
               <strong>Get more out of your workout</strong>
             </h1>
-            <hr style="border-color: #22a7f0">
+            <hr style="border-color: #48a0ef">
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Using our revolutionary form correction technology</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="background-color: #22a7f0">Find Out More</a>
+          <div class="col-lg-10 mx-auto">
+            <p class="grayText mb-5">Our revolutionary smart mirror provides the ultimate workout experience helping you safely and effectively achieve your fitness goals.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#features" style="background-color: #48a0ef">Find Out More</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="about" style="background-color: white !important">
+    <section class="bg-primary" id="about" style="background-color: #E8EAED !important">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-gray">We've got what you need!</h2>
-            <hr class="light my-4">
-            <div class="col-lg-12">
-              <img style="width: 100%" src="img/About-background.png"/>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div = class="row">
+          <div class="col-lg-12 text-center">
+            <p class="mb-3"> The majority of gym members lack proper knowledge in at least one of the following key areas, including: speed of body movement, angles of joint rotation, correct exercise start/stop points, and optimal weight selection. At Spoteria, we are commited to developing a weight training assistant technology to monitor, detect and help correct the user's form in real-time while exercising.
+            </p>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 1rem">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/Website Images/gym_member_icon.png" style="height: 9rem; padding-bottom: 1.5rem "/>
+              <h3 class="mb-3 bold dark-gray">60 M+</h3> 
+              <p class="mb-0">Gym Memberships in North America</p>
             </div>
-            <p class="text-gray mb-4">Evolutionary weight training technology. Spoteria is the number one device in its field! Nothing can beat it!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#blog">Get Started!</a>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/Website Images/injury_icon.png" style="height: 9rem; padding-bottom: 1.5rem "/>
+              <h3 class="mb-3 bold dark-gray">500,000+</h3>
+              <p class="mb-0">Annual Workout Related Injuries</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/Website Images/dollars_icon.png" style="height: 9rem; padding-bottom: 1.5rem "/>
+              <h3 class="mb-3 bold dark-gray">$2.5 M+</h3>
+              <p class="mb-0">Dollars Spent Annually on Physiotherapy</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-primary" id="features" style="background-color: white !important">
+      <div class="container-fluid" style="padding-left: 5rem; padding-right: 5rem; text-align: center;">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Features</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="service-box mt-5 mx-auto">
+                  <img src="img/Website Images/muscles_icon.png" style="height: 6rem; padding-bottom: 1rem; display: block; margin: 0 auto "/>
+                  <h5 class="mb-3 bold dark-gray">Real-time Joint & Depth Tracking</h5>
+                  <p class="mb-0">Analyzes critical joint angles during your workout.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="service-box mt-5 mx-auto">
+                  <img src="img/Website Images/warning_icon.png" style="height: 6rem; padding-bottom: 1rem; display: block; margin: 0 auto"/>
+                  <h5 class="mb-3 bold dark-gray" >Incorrect Form Detection</h5>
+                  <p class="mb-0">Provides on-screen visual feedback.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="service-box mt-5 mx-auto">
+                  <img src="img/Website Images/height_icon.png" style="height: 6rem; padding-bottom: 1rem; display: block; margin: 0 auto "/>
+                  <h5 class="mb-3 bold dark-gray">Automatic Height Adjustment</h5>
+                  <p class="mb-0">Supports seated and standing exercises.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div style="height: 100%;align-items: center;display: flex"><img style="width: 100%" src="img/Website Images/User_Interface.jpg"/></div>
+          </div>
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="service-box mt-5 mx-auto">
+                  <img src="img/Website Images/set_rep_count_icon.png" style="height: 6rem; padding-bottom: 1rem; display: block; margin: 0 auto "/>
+                  <h5 class="mb-3 bold dark-gray">Sets & Reps Counter</h5>
+                  <p class="mb-0">Keeps track of your exercise progress.</p>
+                  <br/>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="service-box mt-5 mx-auto">
+                  <img src="img/Website Images/timer_icon.png" style="height: 6rem; padding-bottom: 1rem; display: block; margin: 0 auto"/>
+                  <h5 class="mb-3 bold dark-gray">Exercise Duration Timer</h5>
+                  <p class="mb-0">Logs your workout time.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="service-box mt-5 mx-auto">
+                  <img src="img/Website Images/rewind_icon.png" style="height: 6rem; padding-bottom: 1rem; display: block; margin: 0 auto "/>
+                  <h5 class="mb-3 bold dark-gray">Video Replay</h5>
+                  <p class="mb-0">Records your performance.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="blog" style="background-color: #f8f9fa !important">
+    <section class="bg-primary" id="technology" style="background-color: #E8EAED !important">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Technology</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="mb-3">Spoteria uses the following technologies to augment your workout experience:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div style="display: flex; height: 100%;align-items: center">
+              <img src="img/Website Images/kinect.png" style="width: 100%" />
+            </div>
+         </div>
+          <div class="col-lg-6">
+            <div style="display: flex; height: 100%; align-items: center">
+              <img src="img/Website Images/turi.png" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div style="display: flex; height: 100%;align-items: center">
+              <img src="img/Website Images/Unity_Technologies_logo.svg.png" style="width: 100%" />
+            </div>
+         </div>
+          <div class="col-lg-6">
+            <div style="display: flex; height: 100%;align-items: center">
+              <img src="img/Website Images/ardunio_logo.png" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" style="background-color: white !important">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -123,7 +295,7 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/Navdeep.jpeg" style="width: 100%; border-radius: 500px; padding-bottom: 5px "/>
+              <img src="img/SheshTinderProfile.jpg" style="width: 100%; border-radius: 500px; padding-bottom: 5px "/>
               <h3 class="mb-3">Shesh Nepal</h3>
               <p class="text-muted mb-0">Software Design and Implementation</p>
             </div>
@@ -132,112 +304,36 @@
             <div class="service-box mt-5 mx-auto">
               <img src="img/Hamdan.jpeg" style="width: 100%; border-radius: 500px; padding-bottom: 5px "/>
               <h3 class="mb-3">Hamdan Chaudhry</h3>
-              <p class="text-muted mb-0">Mechanical Design and Assembly</p>
+              <p class="text-muted mb-0">Mechanical Assembly and Software Testing</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img src="img/Yifan.jpg" style="width: 100%; border-radius: 5000px; padding-bottom: 5px "/>
               <h3 class="mb-3">Yifan Wu</h3>
-              <p class="text-muted mb-0">General Software Development</p>
+              <p class="text-muted mb-0">Computer Vision Implementation</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="p-0" id="team">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Week 1
-                  </div>
-                  <div class="project-name">
-                    Blog 1
-                  </div>
-                </div>
-              </div>
-            </a>
+    <section id="blog" style="background-color: #E8EAED !important">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">News</h2>
+            <hr class="my-4">
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Blog 2
-                  </div>
-                </div>
-              </div>
-            </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="mb-4" style="font-style: normal !important">Keep up-to-date with our weekly progress.</p>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mr-auto text-center">
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#features" style="background-color: #48a0ef">View our blog</a>
           </div>
         </div>
       </div>
@@ -249,19 +345,24 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Contact Us</h2>
             <hr class="my-4">
-            <!--<p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
           </div>
         </div>
         <div class="row">
-          <!--<div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>519-123-3124</p>
-          </div>-->
+          <div class="col-lg-12 text-center">
+              <img class="mb-3" style="width: 12rem" src="img/Website Images/logo.png"/>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-lg-12 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">spoteria@gmail.com</a>
+              <a href="mailto:your-email@your-domain.com">spoteria.ai@gmail.com</a>
             </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mr-auto text-center">
+            <p>Check us out on March 15, 1:00-4:30 at E7.</p>
           </div>
         </div>
       </div>
